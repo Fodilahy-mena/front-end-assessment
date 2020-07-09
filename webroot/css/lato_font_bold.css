@@ -1,0 +1,9 @@
+@font-face {
+  font-family: myBoldLato;
+  src: url(../fonts/Lato-Bold.ttf) format("woff2");
+  font-weight: 700;
+}
+
+.masthead__heading {
+  font-family: myBoldLato;
+}
