@@ -12,3 +12,7 @@
 /* The font css file is here */
 
 @import "../css/lato_font_bold.css";
+
+/* The Lato regular font link is in here */
+
+@import "../fonts/Lato-Regular.ttf";
