@@ -8,3 +8,7 @@
 
 /* This is a link to masthead css */
 @import "../css/masthead.css";
+
+/* The font css file is here */
+
+@import "../css/lato_font_bold.css";

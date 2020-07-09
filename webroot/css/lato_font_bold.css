@@ -1,7 +1,10 @@
 @font-face {
   font-family: myBoldLato;
   src: url(../fonts/Lato-Bold.ttf) format("woff2");
+  font-style: normal;
   font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
 }
 
 .masthead__heading {
