@@ -12,18 +12,3 @@
   letter-spacing: 0.03em;
   color: #333333;
 }
-
-@font-face {
-  font-family: myNormalLato;
-  src: url(../fonts/Lato-Regular.ttf) format("woff2");
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
-}
-
-.masthead__description {
-  font-family: myNormalLato;
-  color: #4F4F4F;
-
-}
