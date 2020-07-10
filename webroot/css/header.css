@@ -1,8 +1,8 @@
 .logo--sports--img {
-  max-width: 188px;
-  min-width: 188px;
-  min-height: 123.2px;
-  max-height: 123.2px;
+  max-width: 186px;
+  min-width: 186px;
+  min-height: 70px;
+  max-height: 70px;
 }
 
 body > header {
@@ -11,5 +11,11 @@ body > header {
 @media (min-width: 1440px) {
   body > header {
     text-align: unset;
+  }
+  .logo--sports--img {
+    max-width: 92px;
+    min-width: 92px;
+    min-height: 32px;
+    max-height: 32px;
   }
 }
