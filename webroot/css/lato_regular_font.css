@@ -1,14 +1,20 @@
 @font-face {
   font-family: myNormalLato;
   src: url(../fonts/Lato-Regular.ttf) format("woff2");
+}
+
+.masthead__description {
+  font-family: myNormalLato;
+  color: #4F4F4F;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 23px;
 }
 
-.masthead__description {
-  font-family: myNormalLato;
-  color: #4F4F4F;
-
+@media (min-width: 1440px) {
+  .masthead__description {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
