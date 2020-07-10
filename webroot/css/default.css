@@ -1,11 +1,23 @@
 body {
   background-color: rgba(244,246,249, 0.8);
   display: block;
-  text-align: center;
   max-width: 100%;
   min-width: auto;
   max-height: 100%;
   min-height: auto;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position: right 1% bottom 65%;
+    display: grid;
+    -ms-grid-template-columns: repeat(2, 1fr);
+  }
+  main {
+    -ms-grid-column: 1/2;
+  }
 }
 
 
