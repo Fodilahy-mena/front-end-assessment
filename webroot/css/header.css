@@ -4,3 +4,12 @@
   min-height: 123.2px;
   max-height: 123.2px;
 }
+
+body > header {
+  text-align: center;
+}
+@media (min-width: 1440px) {
+  body > header {
+    text-align: unset;
+  }
+}
