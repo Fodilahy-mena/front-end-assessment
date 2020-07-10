@@ -1,0 +1,10 @@
+@media (min-width: 1440px) {
+
+  body > main .masthead {
+    text-align: unset;
+  }
+}
+
+main .masthead {
+  text-align: center;
+}
