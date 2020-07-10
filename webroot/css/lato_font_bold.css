@@ -1,14 +1,22 @@
 @font-face {
   font-family: myBoldLato;
   src: url(../fonts/Lato-Bold.ttf) format("woff2");
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
 }
 
 .masthead__heading {
   font-family: myBoldLato;
   letter-spacing: 0.03em;
   color: #333333;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@media (min-width: 1440px) {
+  .masthead__heading {
+  font-size: 30px;
+  line-height: 40px;
+  
+  }
 }
