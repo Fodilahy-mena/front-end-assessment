@@ -26,4 +26,10 @@ body > header h1 {
     min-height: 32px;
     max-height: 32px;
   }
+  body > header h1 {
+    margin: 0;
+    padding-inline-start: 10rem;
+    top: 30px;
+    position: relative;
+  }
 }

@@ -11,10 +11,7 @@
   font-size: 16px;
   line-height: 23px;
   margin: 0;
-  position: relative;
-  top: 302px;
-  left: 20px;
-  right: 20px;
+  padding-block-start: 60px;
 }
 
 @media (min-width: 1440px) {
