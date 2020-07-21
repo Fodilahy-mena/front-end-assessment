@@ -8,7 +8,7 @@
        url('../fonts/any_conv.com__lato-bold.woff') format("woff");
 }
 
-.masthead__heading {
+.heading {
   font-family: myLatoBold;
   letter-spacing: 0.03em;
   color: #333333;
@@ -19,7 +19,7 @@
 }
 
 @media (min-width: 1440px) {
-  .masthead__heading {
+  .heading {
   font-size: 30px;
   line-height: 40px;
 

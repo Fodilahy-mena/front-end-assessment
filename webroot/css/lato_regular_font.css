@@ -8,7 +8,7 @@
        url('../fonts/any_conv.com__lato-regular.woff') format("woff");
 }
 
-.masthead__description {
+.description {
   font-family: myLatoRegular;
   color: #4F4F4F;
   font-style: normal;
@@ -19,8 +19,9 @@
   padding-block-start: 60px;
 }
 
+
 @media (min-width: 1440px) {
-  .masthead__description {
+  .description {
     font-size: 18px;
     line-height: 26px;
   }

@@ -16,13 +16,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     -ms-grid-template-columns: repeat(2, 1fr);
   }
-  main {
-    grid-column: 1/2;
-    -ms-grid-column: 1/2;
-    max-width: 29rem;
-    min-width: 29rem;
-    padding-inline-start: 10rem;
-  }
+
 }
 
 
