@@ -1,10 +1,15 @@
 @font-face {
-  font-family: myNormalLato;
-  src: url(../fonts/Lato-Regular.ttf) format("woff2");
+  font-family: myLatoRegular;
+  src: local('Lato Regular'),
+       local('Lato-Regular'),
+       local('lato-regular'),
+       local('lato regular'),
+       url('../fonts/any_conv.com__lato-regular.woff2') format("woff2"),
+       url('../fonts/any_conv.com__lato-regular.woff') format("woff");
 }
 
 .masthead__description {
-  font-family: myNormalLato;
+  font-family: myLatoRegular;
   color: #4F4F4F;
   font-style: normal;
   font-weight: normal;
