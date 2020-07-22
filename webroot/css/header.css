@@ -19,6 +19,13 @@ body > header h1 {
 @media (min-width: 1440px) {
   body > header {
     text-align: unset;
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position: right -28% bottom 60%;
   }
   .logo--sports--img {
     max-width: 92px;
@@ -28,8 +35,11 @@ body > header h1 {
   }
   body > header h1 {
     margin: 0;
-    padding-inline-start: 10rem;
-    top: 30px;
+    top: 63px;
+    position: relative;
+  }
+  .navigation {
+    top: 120px;
     position: relative;
   }
 }

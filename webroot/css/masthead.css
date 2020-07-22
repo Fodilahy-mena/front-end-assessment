@@ -1,6 +1,4 @@
-@media (min-width: 1440px) {
 
-}
 
 header h2 {
   position: relative;
@@ -13,13 +11,13 @@ header h2 {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-block-start: 2rem;
+  padding-block-start: 52px;
 }
 .google {
-  padding-inline-end: 8px;
+  padding-inline-start: 8px;
 }
 .app-store {
-  padding-inline-start: 8px;
+  padding-inline-end: 8px;
 }
 
 .apple--image {
@@ -30,4 +28,9 @@ header h2 {
 .google--image {
   max-width: 100%;
   min-width: 100%;
+}
+@media (min-width: 1440px) {
+  .navigation__body {
+  justify-content: left;
+}
 }

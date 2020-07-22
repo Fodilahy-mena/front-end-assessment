@@ -9,14 +9,10 @@ body {
 
 @media (min-width: 1440px) {
   body {
-    background-image: url(../img/bg_header.png);
+    /* background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: right 1% bottom 65%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    -ms-grid-template-columns: repeat(2, 1fr);
+    background-position: right -28% bottom 60%; */
   }
-
 }
 
 
