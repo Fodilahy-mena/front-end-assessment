@@ -23,9 +23,7 @@ body > header h1 {
     max-height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../img/bg_header.png);
-    background-repeat: no-repeat;
-    background-position: right -28% bottom 60%;
+
   }
   .logo--sports--img {
     max-width: 92px;
@@ -39,7 +37,8 @@ body > header h1 {
     position: relative;
   }
   .navigation {
-    top: 120px;
+    max-width: 546px;
     position: relative;
+    padding-block-start: 70px;
   }
 }

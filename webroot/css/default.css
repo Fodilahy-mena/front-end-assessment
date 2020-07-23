@@ -9,9 +9,10 @@ body {
 
 @media (min-width: 1440px) {
   body {
-    /* background-image: url(../img/bg_header.png);
+    background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: right -28% bottom 60%; */
+    background-position: right -25% bottom 50%;
+
   }
 }
 

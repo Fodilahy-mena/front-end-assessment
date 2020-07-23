@@ -33,4 +33,7 @@ header h2 {
   .navigation__body {
   justify-content: left;
 }
+.description {
+  margin-left: 0;
+}
 }
