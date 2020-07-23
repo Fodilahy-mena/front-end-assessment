@@ -1,20 +1,20 @@
 /* Import all the css files here */
 /* The font css file is here */
 
-@import "../css/lato_font_bold.css";
+@import "../scss/lato_font_bold";
 
 /* The Lato regular font link is in here */
 
-@import "../css/lato_regular_font.css";
+@import "../scss/lato_regular_font";
 
 /* This is a link to default css */
-@import "../css/default.css";
+@import "../scss/default";
 
 /* This is a link to header css */
-@import "../css/header.css";
+@import "../scss/header";
 
 /* This is a link to masthead css */
-@import "../css/masthead.css";
+@import "../scss/masthead";
 
 
 
