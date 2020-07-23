@@ -73,3 +73,37 @@ Bonus points will be awarded for code that uses:
 - elegant (thoughtful) solutions to complex problems
 - going the extra mile (putting in more effort to push for high quality or delight)
 
+<!-- *********************** -->
+
+## Continue as an exercise
+### About sass
+
+#### Install the Project
+
+We use `npm i` to install our project.
+
+#### Run css
+
+We use `npm run css:watch` every time we make a change in our css.
+
+#### Steps to start sass
+
+- Create an new branch out of your branch for example: `sass` or `my-sass`.
+- Work on your new branch
+- On github, we run `npm init` command.
+- Press enter, enter... until we get this from github: `Is this OK? (Y/N)` we accept it so `y`
+- Git add and commit
+- The run a command `npm i -D node-sass` (Div dependancy).
+- Create a `.gitignore` file inside of your repository. Aligne with readme.mdn. Indide the `.gitignore` file, we type `node_modules` so that it will be ignored.
+- We copy thi inside of package.json file `"scripts": {
+    "css": "node-sass scss -o webroot/css"`
+- Move all of your css files to scss folder by running `git mv webroot/css scss` command. And rename all css file with `_` underscore at the begining and `scss` at the end. Note: The `index.css` will be renamed as `index.scss` without `_` at hte begining. And link all of the `scss` files in `index.scss` file.
+- Add and commit.
+- We run `npm run css` on VsCode terminal.
+- Then we add `"css:watch": "npm run css && node-sass scss -w -o webroot/css"` in package.json after the reccent one with a comma.
+- The run `npm run css:watch` on VsCode terminal.
+
+- Git checkout your main branch and merge your new branch to it, and push.
+
+***Tnat's all!***
+
