@@ -1,0 +1,126 @@
+/* Import all the css files here */
+/* The font css file is here */
+@font-face {
+  font-family: myLatoBold;
+  src: local("Lato Bold"), local("Lato-Bold"), local("lato-bold"), local("lato bold"), url("../fonts/any_conv.com__lato-bold.woff2") format("woff2"), url("../fonts/any_conv.com__lato-bold.woff") format("woff"); }
+
+.heading {
+  font-family: myLatoBold;
+  letter-spacing: 0.03em;
+  color: #333333;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px; }
+
+@media (min-width: 1440px) {
+  .heading {
+    font-size: 30px;
+    line-height: 48px; } }
+
+/* The Lato regular font link is in here */
+@font-face {
+  font-family: myLatoRegular;
+  src: local("Lato Regular"), local("Lato-Regular"), local("lato-regular"), local("lato regular"), url("../fonts/any_conv.com__lato-regular.woff2") format("woff2"), url("../fonts/any_conv.com__lato-regular.woff") format("woff"); }
+
+.description {
+  font-family: myLatoRegular;
+  color: #4F4F4F;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 453px;
+  padding-block-start: 60px; }
+
+@media (min-width: 1440px) {
+  .description {
+    font-size: 18px;
+    line-height: 26px; } }
+
+/* This is a link to default css */
+body {
+  background-color: rgba(244, 246, 249, 0.8);
+  display: block;
+  max-width: 100%;
+  min-width: auto;
+  max-height: 100%;
+  min-height: auto; }
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position: right -25% bottom 50%; } }
+
+/* This is a link to header css */
+.logo--sports--img {
+  max-width: 186px;
+  min-width: 186px;
+  min-height: 70px;
+  max-height: 70px; }
+
+body > header {
+  text-align: center; }
+
+body > header h1 {
+  margin: 0;
+  top: 30px;
+  position: relative; }
+
+@media (min-width: 1440px) {
+  body > header {
+    text-align: unset;
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  .logo--sports--img {
+    max-width: 92px;
+    min-width: 92px;
+    min-height: 32px;
+    max-height: 32px; }
+  body > header h1 {
+    margin: 0;
+    top: 63px;
+    position: relative; }
+  .navigation {
+    max-width: 546px;
+    position: relative;
+    padding-block-start: 70px; } }
+
+/* This is a link to masthead css */
+header h2 {
+  position: relative;
+  top: 50px; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-block-start: 52px; }
+
+.google {
+  padding-inline-start: 8px; }
+
+.app-store {
+  padding-inline-end: 8px; }
+
+.apple--image {
+  max-width: 100%;
+  min-width: 100%; }
+
+.google--image {
+  max-width: 100%;
+  min-width: 100%; }
+
+@media (min-width: 1440px) {
+  .navigation__body {
+    justify-content: left; }
+  .description {
+    margin-left: 0; } }
