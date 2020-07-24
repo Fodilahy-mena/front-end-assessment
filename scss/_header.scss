@@ -14,7 +14,11 @@ body > header h1 {
   top: 30px;
   position: relative;
 }
+.navigation {
+  position: relative;
+  padding-block-start: 70px;
 
+}
 
 @media (min-width: 1440px) {
   body > header {
@@ -38,7 +42,6 @@ body > header h1 {
   }
   .navigation {
     max-width: 546px;
-    position: relative;
-    padding-block-start: 70px;
+    padding-block-start: 133px;
   }
 }
