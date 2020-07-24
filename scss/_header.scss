@@ -1,3 +1,6 @@
+@import 'variables';
+
+
 .logo--sports--img {
   max-width: 186px;
   min-width: 186px;
@@ -6,7 +9,7 @@
 }
 
 body > header {
-  text-align: center;
+  text-align: $centered;
 }
 
 body > header h1 {
