@@ -1,17 +1,17 @@
 body {
   background-color: rgba(244,246,249, 0.8);
   display: block;
-  max-width: 100%;
-  min-width: auto;
-  max-height: 100%;
-  min-height: auto;
+  max-width: $percentage-max-width;
+  min-width: $auto;
+  max-height: $percentage-max-width;
+  min-height: $auto;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: calc(#{$max-width-container} + 326px)) {
   body {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: right -25% bottom 50%;
+    background-position: right calc(#{$percentage-max-width} / -4) bottom calc(#{$percentage-max-width} / 2);
 
   }
 }

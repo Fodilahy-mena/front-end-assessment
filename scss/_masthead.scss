@@ -20,16 +20,17 @@ header h2 {
   padding-inline-end: 8px;
 }
 
-.apple--image {
-  max-width: 100%;
-  min-width: 100%;
+.apple--image,
+.google--image {
+  max-width: $percentage-max-width;
+  min-width: $percentage-max-width;
 }
 
-.google--image {
-  max-width: 100%;
-  min-width: 100%;
-}
-@media (min-width: 1440px) {
+// .google--image {
+//   max-width: 100%;
+//   min-width: 100%;
+// }
+@media (min-width: calc(#{$max-width-container} + 326px)) {
   .navigation__body {
   justify-content: left;
   padding-inline-start: 0;

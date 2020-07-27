@@ -13,7 +13,7 @@
   font-size: 30px;
   line-height: 40px; }
 
-@media (min-width: 1440px) {
+@media (min-width: calc(1114px + 326px)) {
   .heading {
     font-size: 36px;
     line-height: 48px; } }
@@ -34,7 +34,7 @@
   margin-right: auto;
   max-width: 453px; }
 
-@media (min-width: 1440px) {
+@media (min-width: calc(1114px + 326px)) {
   .description {
     font-size: 18px;
     line-height: 26px; } }
@@ -48,11 +48,11 @@ body {
   max-height: 100%;
   min-height: auto; }
 
-@media (min-width: 1440px) {
+@media (min-width: calc(1114px + 326px)) {
   body {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: right -25% bottom 50%; } }
+    background-position: right calc(100% / -4) bottom calc(100% / 2); } }
 
 /* This is a link to header css */
 .logo--sports--img {
@@ -73,7 +73,7 @@ body > header h1 {
   position: relative;
   padding-block-start: 70px; }
 
-@media (min-width: 1440px) {
+@media (min-width: calc(1114px + 326px)) {
   body > header {
     text-align: unset;
     max-width: 1114px;
@@ -111,15 +111,12 @@ ul {
 .app-store {
   padding-inline-end: 8px; }
 
-.apple--image {
-  max-width: 100%;
-  min-width: 100%; }
-
+.apple--image,
 .google--image {
   max-width: 100%;
   min-width: 100%; }
 
-@media (min-width: 1440px) {
+@media (min-width: calc(1114px + 326px)) {
   .navigation__body {
     justify-content: left;
     padding-inline-start: 0; }
