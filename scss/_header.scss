@@ -8,11 +8,11 @@
   max-height: 70px;
 }
 
-body > header {
+.a11y {
   text-align: $centered;
 }
 
-body > header h1 {
+.a11y h1 {
   margin: 0;
   top: 30px;
   position: relative;
@@ -24,12 +24,14 @@ body > header h1 {
 }
 
 @media (min-width: calc(#{$max-width-container} + 326px)) {
-  body > header {
+  .a11y {
     text-align: unset;
     max-width: $max-width-container;
     max-height: $percentage-max-width;
     margin-left: $auto;
-    margin-right: $auto;
+    margin-right: 0;
+    padding-bottom: 10rem;
+    padding-right: 10rem;
 
   }
   .logo--sports--img {

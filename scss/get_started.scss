@@ -1,0 +1,33 @@
+@import 'variables';
+
+.section_started {
+  text-align: $centered;
+}
+.article_image img{
+  max-width: $percentage-max-width;
+  max-height: $percentage-max-width;
+  min-height: $percentage-max-width;
+  min-width: $percentage-max-width;
+  display: block;
+}
+
+.section_started h3 {
+  font-family: myLatoBold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE;
+  text-transform: uppercase;
+}
+.section_started h4 {
+  font-family: myLatoBold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+}
+
+.section_started p {
+  font-family: myLatoRegular;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4F4F4F;
+}

@@ -1,0 +1,29 @@
+.section_started {
+  text-align: center; }
+
+.article_image img {
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  display: block; }
+
+.section_started h3 {
+  font-family: myLatoBold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00ADEE;
+  text-transform: uppercase; }
+
+.section_started h4 {
+  font-family: myLatoBold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333; }
+
+.section_started p {
+  font-family: myLatoRegular;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #4F4F4F; }

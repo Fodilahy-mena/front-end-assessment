@@ -8,11 +8,13 @@ body {
 }
 
 @media (min-width: calc(#{$max-width-container} + 326px)) {
-  body {
+
+  body > main > header {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: right calc(#{$percentage-max-width} / -4) bottom calc(#{$percentage-max-width} / 2);
-
+    background-position-x: 512px;
+    background-position-y: -177px;
+    background-size: $percentage-max-width - 30;
   }
 }
 

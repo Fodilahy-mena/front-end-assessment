@@ -11,3 +11,8 @@ $line-height: 23px;
 $lato-font-path: "../fonts/any_conv.com__";
 $woff2: 'woff2';
 $woff: 'woff';
+
+@mixin reset-list {
+  margin: 0;
+  list-style: none;
+}
