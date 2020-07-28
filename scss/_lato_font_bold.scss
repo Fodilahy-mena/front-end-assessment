@@ -6,8 +6,8 @@
        local('Lato-Bold'),
        local('lato-bold'),
        local('lato bold'),
-       url('../fonts/any_conv.com__lato-bold.woff2') format("woff2"),
-       url('../fonts/any_conv.com__lato-bold.woff') format("woff");
+       url('#{$lato-font-path}lato-bold.#{$woff2}') format("#{$woff2}"),
+       url('#{$lato-font-path}lato-bold.#{$woff}') format("#{$woff}");
 }
 
 .heading {

@@ -6,8 +6,8 @@
        local('Lato-Regular'),
        local('lato-regular'),
        local('lato regular'),
-       url('../fonts/any_conv.com__lato-regular.woff2') format("woff2"),
-       url('../fonts/any_conv.com__lato-regular.woff') format("woff");
+       url('#{$lato-font-path}lato-regular.#{$woff2}') format("#{$woff2}"),
+       url('#{$lato-font-path}lato-regular.#{$woff}') format("#{$woff}");
 }
 
 
