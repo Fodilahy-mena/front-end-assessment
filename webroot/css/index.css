@@ -128,7 +128,10 @@ header h2 {
     margin-left: 0; } }
 
 .section_started {
-  text-align: center; }
+  text-align: center;
+  background-color: white;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem; }
 
 .article_image img {
   max-width: 100%;

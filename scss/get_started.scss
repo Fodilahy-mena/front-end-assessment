@@ -2,6 +2,9 @@
 
 .section_started {
   text-align: $centered;
+  background-color: white;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
 }
 .article_image img{
   max-width: $percentage-max-width;
