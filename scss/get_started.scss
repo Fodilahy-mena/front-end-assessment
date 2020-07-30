@@ -4,7 +4,16 @@
   text-align: $centered;
   background-color: white;
   padding-block-start: 2rem;
-  padding-block-end: 2rem;
+  padding-block-end: 610px;
+
+}
+.section_started {
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: calc(100% + 684px);
+  width: auto;
+  height: 403px;
 }
 .article_image img{
   max-width: $percentage-max-width;
@@ -30,7 +39,17 @@
 
 .section_started p {
   font-family: myLatoRegular;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 23px;
   color: #4F4F4F;
+}
+.section_started__learn_more a {
+  text-decoration: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #00ADEE;
 }

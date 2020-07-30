@@ -44,7 +44,7 @@ footer ul {
   display: flex;
   padding-block-start: 34px;
   padding-block-end: 34px;
-  justify-content: space-around;
+
 }
 
 .accessibitity > li a {
@@ -55,4 +55,7 @@ footer ul {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+}
+.accessibitity > li {
+  margin-right: 2rem;
 }
