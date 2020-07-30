@@ -5,6 +5,7 @@ body {
   min-width: $auto;
   max-height: $percentage-max-width;
   min-height: $auto;
+  margin: 0;
 }
 
 @media (min-width: calc(#{$max-width-container} + 326px)) {

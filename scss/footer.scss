@@ -1,0 +1,41 @@
+@import 'variables';
+footer {
+  background-color: #00ADEE;
+  padding: 21px;
+}
+footer h2 {
+  background-image: url(../img/logo_sports_white.svg);
+  display: block;
+  text-indent: -999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 84px;
+}
+footer ul {
+  @include reset-list;
+  padding: 0;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+.twitter,
+.facebook,
+.instagram {
+  display: block;
+  text-indent: -999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+}
+.twitter {
+  background-image: url(../img/icon_twitter.svg);
+}
+.facebook {
+  background-image: url(../img/icon_facebook.svg);
+  margin-inline-start: 1rem;
+}
+.instagram {
+  background-image: url(../img/icon_instagram.svg);
+  margin-inline-start: 1rem;
+}
