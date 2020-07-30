@@ -64,7 +64,8 @@ body {
   max-height: 70px; }
 
 .a11y {
-  text-align: center; }
+  text-align: center;
+  padding-block-end: 59px; }
 
 .a11y h1 {
   margin: 0;
@@ -160,7 +161,8 @@ header h2 {
   color: #4F4F4F; }
 
 .section_features {
-  text-align: center; }
+  text-align: center;
+  background-color: #F4F6F9; }
 
 .features_info {
   display: grid;
@@ -184,7 +186,8 @@ header h2 {
   line-height: 37px; }
 
 .section_guide--communication {
-  text-align: center; }
+  text-align: center;
+  background-color: #F4F6F9; }
 
 .section_guide--communication > header h4 {
   font-family: myLatoBold;

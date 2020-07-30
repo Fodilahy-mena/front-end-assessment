@@ -1,5 +1,6 @@
 .section_guide--communication {
-  text-align: center; }
+  text-align: center;
+  background-color: #F4F6F9; }
 
 .section_guide--communication > header h4 {
   font-family: myLatoBold;

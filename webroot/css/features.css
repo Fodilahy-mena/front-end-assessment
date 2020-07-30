@@ -1,5 +1,6 @@
 .section_features {
-  text-align: center; }
+  text-align: center;
+  background-color: #F4F6F9; }
 
 .features_info {
   display: grid;
