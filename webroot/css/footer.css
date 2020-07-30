@@ -38,3 +38,18 @@ footer ul {
 .instagram {
   background-image: url(../img/icon_instagram.svg);
   margin-inline-start: 1rem; }
+
+.accessibitity {
+  display: flex;
+  padding-block-start: 34px;
+  padding-block-end: 34px;
+  justify-content: space-around; }
+
+.accessibitity > li a {
+  text-decoration: none;
+  font-family: myLatoBold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF; }

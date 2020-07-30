@@ -1,5 +1,9 @@
 @import 'variables';
 
+main > header {
+  padding-inline-end: $padding;
+  padding-inline-start: $padding;
+}
 
 .logo--sports--img {
   max-width: 186px;

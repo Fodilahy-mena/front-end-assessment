@@ -1,3 +1,5 @@
+@import 'variables';
+
 body {
   background-color: rgba(244,246,249, 0.8);
   display: block;
@@ -7,7 +9,9 @@ body {
   min-height: $auto;
   margin: 0;
 }
-
+section {
+  padding: $padding;
+}
 @media (min-width: calc(#{$max-width-container} + 326px)) {
 
   body > main > header {

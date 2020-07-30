@@ -8,6 +8,7 @@ header h2 {
   display: flex;
   flex-direction: row;
   justify-content: $centered;
+  padding: 0;
   padding-block-start: 2rem;
   @include reset-list;
 }
