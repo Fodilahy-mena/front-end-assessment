@@ -233,6 +233,38 @@ header h2 {
   font-size: 28px;
   line-height: 37px; }
 
+.video_collection,
+.notification,
+.brand_team,
+.flag_identification,
+.new_picture,
+.league_champion {
+  display: block;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  height: auto;
+  background-position: center; }
+
+.video_collection {
+  background-image: url(../img/icon_video_blue.svg); }
+
+.notification {
+  background-image: url(../img/icon_bell_ringing_blue.svg); }
+
+.brand_team {
+  background-image: url(../img/icon_hd_blue.svg); }
+
+.flag_identification {
+  background-image: url(../img/icon_flag_blue.svg); }
+
+.new_picture {
+  background-image: url(../img/icon_tent_blue.svg); }
+
+.league_champion {
+  background-image: url(../img/icon_graph_blue.svg); }
+
 .section_guide--communication {
   text-align: center;
   background-color: #F4F6F9; }
