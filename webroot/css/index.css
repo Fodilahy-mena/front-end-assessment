@@ -245,6 +245,13 @@ header h2 {
 .guide_navigation > ul li:nth-of-type(6) {
   grid-column: 1/5; }
 
+@media (min-width: calc(1114px + 326px)) {
+  .guide_navigation > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto; } }
+
 footer {
   background-color: #00ADEE;
   padding: 21px; }
