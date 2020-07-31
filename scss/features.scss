@@ -11,6 +11,9 @@
   padding: 0;
   list-style: none;
 }
+.features_info ul {
+  list-style: none;
+}
 
 .features_info li {
   padding-bottom: 2rem;
@@ -62,4 +65,42 @@
 }
 .league_champion {
   background-image: url(../img/icon_graph_blue.svg);
+}
+
+@media (min-width: calc(#{$max-width-container} + 326px)) {
+  .section_features {
+    text-align: left;
+    background-color: #00ADEE;
+    color: #FFFFFF;
+  }
+  .features_info li {
+    color: #FFFFFF;
+  }
+  .video_collection {
+    background-image: url(../img/icon_video_white.svg);
+  }
+  .notification {
+    background-image: url(../img/icon_bell_ringing_white.svg);
+  }
+  .brand_team {
+    background-image: url(../img/icon_hd_white.svg);
+  }
+  .flag_identification {
+    background-image: url(../img/icon_flag_white.svg);
+  }
+  .new_picture {
+    background-image: url(../img/icon_tent_white.svg);
+  }
+  .league_champion {
+    background-image: url(../img/icon_graph_white.svg);
+  }
+  .video_collection,
+.notification,
+.brand_team,
+.flag_identification,
+.new_picture,
+.league_champion {
+  background-position: left;
+}
+
 }
