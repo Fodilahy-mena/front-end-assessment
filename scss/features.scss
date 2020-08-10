@@ -73,6 +73,16 @@
     background-color: #00ADEE;
     color: #FFFFFF;
   }
+  .section_features article {
+    max-width: $max-width-container;
+    margin: $auto;
+  }
+  .section_features h4 {
+    text-align: $centered;
+  }
+  .features_info {
+    grid-template-columns: repeat(3,1fr);
+  }
   .features_info li {
     color: #FFFFFF;
   }

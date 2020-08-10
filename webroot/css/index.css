@@ -61,10 +61,6 @@ section {
     background-size: 70%; } }
 
 /* This is a link to header css */
-main > header {
-  padding-inline-end: 21px;
-  padding-inline-start: 21px; }
-
 .logo--sports--img {
   max-width: 186px;
   min-width: 186px;
@@ -273,6 +269,13 @@ header h2 {
     text-align: left;
     background-color: #00ADEE;
     color: #FFFFFF; }
+  .section_features article {
+    max-width: 1114px;
+    margin: auto; }
+  .section_features h4 {
+    text-align: center; }
+  .features_info {
+    grid-template-columns: repeat(3, 1fr); }
   .features_info li {
     color: #FFFFFF; }
   .video_collection {
@@ -328,6 +331,9 @@ header h2 {
   grid-column: 1/5; }
 
 @media (min-width: calc(1114px + 326px)) {
+  .guide_navigation {
+    max-width: 1114px;
+    margin: auto; }
   .guide_navigation > ul {
     display: flex;
     flex-direction: row;

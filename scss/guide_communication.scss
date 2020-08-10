@@ -41,10 +41,14 @@
   grid-column: 1/5;
 }
 @media (min-width: calc(#{$max-width-container} + 326px)) {
+.guide_navigation {
+  max-width: $max-width-container;
+  margin: $auto;
+}
 .guide_navigation > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: auto;
+  margin: $auto;
 }
 }

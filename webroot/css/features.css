@@ -64,6 +64,13 @@
     text-align: left;
     background-color: #00ADEE;
     color: #FFFFFF; }
+  .section_features article {
+    max-width: 1114px;
+    margin: auto; }
+  .section_features h4 {
+    text-align: center; }
+  .features_info {
+    grid-template-columns: repeat(3, 1fr); }
   .features_info li {
     color: #FFFFFF; }
   .video_collection {
