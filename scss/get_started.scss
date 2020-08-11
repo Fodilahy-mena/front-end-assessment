@@ -16,25 +16,29 @@
   height: 403px;
 }
 
-@media (min-width: calc(#{$max-width-container} + 326px)) {
+@media (min-width: $max-width-container) {
   .section_started {
-  padding-block-start: 215px;
-  padding-block-end: 171px;
-  background-position-y: calc(100% - 52%);
-  background-position-x: calc(100% - 125%);
+
+    padding-block-start: 215px;
+    padding-block-end: 171px;
+    background-position: calc(50% + 300px);
+    max-width: 1114px;
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem;
   }
 
   .section_started header {
     text-align: left;
-    margin-inline-start: 200px;
+    // margin-inline-start: 200px;
   }
 
   .section_started article {
     text-align: left;
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: 200px;
-    margin-right: 798px;
+    max-width: 556px;
+    // max-height: 100%;
+    // margin-left: 200px;
+    // margin-right: 798px;
     padding-bottom: 10rem;
   }
   .section_started__learn_more {

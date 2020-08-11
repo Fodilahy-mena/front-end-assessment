@@ -25,7 +25,7 @@
 }
 
 
-@media (min-width: calc(#{$max-width-container} + 326px)) {
+@media (min-width: $max-width-container) {
   .description {
     font-size: $font-size + 2px;
     line-height: $line-height + 3px;

@@ -12,12 +12,12 @@ body {
 section {
   padding: $padding;
 }
-@media (min-width: calc(#{$max-width-container} + 326px)) {
+@media (min-width: $max-width-container) {
 
   body > main > header {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: 512px;
+    background-position-x: 544px;
     background-position-y: -177px;
     background-size: $percentage-max-width - 30;
   }

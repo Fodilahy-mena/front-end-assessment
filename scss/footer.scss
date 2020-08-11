@@ -23,7 +23,7 @@ footer ul {
 .facebook,
 .instagram {
   display: block;
-  // text-indent: -999px;
+  text-indent: -999px;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: $auto;
@@ -62,15 +62,19 @@ footer ul {
   margin-right: 2rem;
 }
 
-@media (min-width: calc(#{$max-width-container} + 326px)) {
+@media (min-width: $max-width-container) {
   footer > div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: $max-width-container;
-    margin: $auto;
     padding-block-start: 50px;
     padding-block-end: 50px;
+  }
+  footer {
+    max-width: $max-width-container;
+    margin: $auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem;
   }
   .accessibitity {
 

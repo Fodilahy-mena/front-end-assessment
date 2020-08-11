@@ -30,12 +30,14 @@
 .guide_navigation > ul li:nth-of-type(6) {
   grid-column: 1/5; }
 
-@media (min-width: calc(1114px + 326px)) {
-  .guide_navigation {
+@media (min-width: 1114px) {
+  .section_guide--communication {
     max-width: 1114px;
-    margin: auto; }
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem; }
   .guide_navigation > ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto; } }

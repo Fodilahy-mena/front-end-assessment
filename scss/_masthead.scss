@@ -29,7 +29,7 @@ header h2 {
 //   max-width: 100%;
 //   min-width: 100%;
 // }
-@media (min-width: calc(#{$max-width-container} + 326px)) {
+@media (min-width: $max-width-container) {
   .navigation__body {
   justify-content: left;
   padding-inline-start: 0;

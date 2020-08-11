@@ -67,21 +67,27 @@
   background-image: url(../img/icon_graph_blue.svg);
 }
 
-@media (min-width: calc(#{$max-width-container} + 326px)) {
+@media (min-width: $max-width-container) {
   .section_features {
     text-align: left;
     background-color: #00ADEE;
     color: #FFFFFF;
-  }
-  .section_features article {
     max-width: $max-width-container;
     margin: $auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem;
   }
+
   .section_features h4 {
     text-align: $centered;
   }
   .features_info {
     grid-template-columns: repeat(3,1fr);
+    grid-gap: 4rem;
+  }
+  .features_info ul {
+    padding: 0;
+    list-style: inside;
   }
   .features_info li {
     color: #FFFFFF;

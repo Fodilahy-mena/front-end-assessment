@@ -28,15 +28,17 @@
 
 }
 
-@media (min-width: calc(#{$max-width-container} + 326px)) {
+@media (min-width: $max-width-container) {
   .a11y {
     text-align: unset;
-    max-width: $max-width-container;
-    max-height: $percentage-max-width;
-    margin-left: $auto;
-    margin-right: 0;
+    max-width: 1114px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 10rem;
-    padding-right: 10rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+
 
   }
   .logo--sports--img {

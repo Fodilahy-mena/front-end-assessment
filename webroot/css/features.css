@@ -59,18 +59,23 @@
 .league_champion {
   background-image: url(../img/icon_graph_blue.svg); }
 
-@media (min-width: calc(1114px + 326px)) {
+@media (min-width: 1114px) {
   .section_features {
     text-align: left;
     background-color: #00ADEE;
-    color: #FFFFFF; }
-  .section_features article {
+    color: #FFFFFF;
     max-width: 1114px;
-    margin: auto; }
+    margin: auto;
+    padding-inline-end: 8rem;
+    padding-inline-start: 8rem; }
   .section_features h4 {
     text-align: center; }
   .features_info {
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem; }
+  .features_info ul {
+    padding: 0;
+    list-style: inside; }
   .features_info li {
     color: #FFFFFF; }
   .video_collection {
